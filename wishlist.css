@@ -497,7 +497,82 @@ text-transform: uppercase;
   margin-left: 7vw;
   text-transform: uppercase;
   padding-bottom: .5vw;
+}/* ..............second.................. */
+#second{
+
+  width: 70vw;
+  height: auto;
+ 
+  margin-top: 5vw;
+  padding-bottom: 5vw;
+overflow-x: scroll;
 }
+#second #navbar{
+  background-color: #95c11e;
+  color: #fff;
+  
+  display: flex;
+  padding: 2vw 2w;
+  justify-content: space-between;
+ overflow-x: scroll;
+ 
+}
+#navbar p{
+  margin-left: 10vw;
+  font-size: 5vw;
+
+}
+hr{
+  border-color: 2px solid #706f6f ;
+}
+.cart1{
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+.cart1 button{
+  text-align: center;
+  margin-top: 30vw;
+  margin-left: 1vw;
+  font-size: 5vw;
+  width: 10vw;
+  height:8vw;
+   border: 1px solid #ddd;
+}
+.cart1 img{
+  width: 70vw;
+  height: 70vw;
+  object-fit:contain;
+}
+.cart1 #input{
+  width: 40vw;
+  height: 8vw;
+margin-top: 30vw;
+  border: 1px solid #ddd;
+ text-align: center;
+}
+.mini {
+  width: 55vw;
+align-content: center;
+}
+.mini h6{
+  text-align: center;
+  font-size: 8vw;
+  font-weight: 100;
+}
+.cart1 p{
+align-content: center;
+font-size: 8vw;
+padding-right: 1vw;
+padding-left: 1vw;
+}
+.mini p{
+  font-size: 5vw;
+  text-align: center;
+  padding: 5vw;
+}
+
 /* .........................................eight............................. */
 #eight {
   height: auto;
