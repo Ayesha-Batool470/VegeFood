@@ -1,0 +1,1395 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.dropdown {
+  float: left;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: rgb(20, 20, 20);
+
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#nav2 a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(250, 250, 250);
+  color: #2c2b2b;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.chkbtn {
+  display: none;
+}
+
+#nav {
+  background-color: #95c11e;
+  justify-content: space-between;
+  display: flex;
+  padding: 0.5vw 5vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+#nav p {
+  font-size: 0.9vw;
+}
+#nav i {
+  font-size: 1vw;
+}
+#nav2 a {
+  text-decoration: none;
+  color: #2c2b2b;
+  font-size: 15px;
+  text-align: left;
+}
+#nav2 {
+  height: 5vw;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  gap: 40vw;
+   position: sticky;
+  top: 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+#nav2 h1 {
+  font-size: 1.5vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #95c11e;
+}
+#header {
+  display: flex;
+  gap: 2vw;
+  margin-bottom: 1vw;
+}
+#header a{
+ font-size: 1.2vw;
+
+}
+#header p {
+  text-transform: uppercase;
+  font-size: 0.9vw;
+}
+#first-section img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+
+  z-index: -1;
+}
+#poster {
+  background-image: url(images/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+#heading {
+  padding-top: 15vw;
+  padding-left: 30vw;
+}
+#heading h1 {
+  line-height: 1;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  margin-left: 14vw;
+  color: white;
+}
+#heading p {
+  color: #fff;
+
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 14vw;
+  text-transform: uppercase;
+  padding-bottom: .5vw;
+}
+.doting{
+    background-color: #95c11e;
+    border-radius: 100vw;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+ 
+ align-content: center;
+ position: absolute;
+ top: -2vw;
+ left: 45vw;
+}
+.doting i{
+
+    color: #fff;
+}
+/* .........................................eight............................. */
+#eight {
+  height: auto;
+  padding: 10vw 10vw;
+  background: #f1f1f1f1;
+   position: relative;
+}
+#footer1 {
+  display: flex;
+  color: #141414e5;
+}
+#footer1 .foot input {
+  border: #2c2b2b;
+  padding: 0vw;
+  background-color: #2c2b2b;
+
+  text-decoration: none;
+}
+
+#part {
+  line-height: 1.5;
+  margin-right: 5vw;
+  width: 20vw;
+}
+.foot {
+  line-height: 2.5vw;
+  width: 20vw;
+}
+
+.foot h6 {
+  padding-bottom: 2vw;
+  font-size: 1.5vw;
+}
+.foot h1 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 2vw;
+}
+.foot p {
+  align-items: center;
+  font-size: 1.3vw;
+  line-height: 3vw;
+}
+
+.foot button {
+  margin-top: 5vw;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  border: none;
+
+  margin-right: 1vw;
+}
+.foot button i {
+  font-size: 2vw;
+}
+.foot button:hover {
+  background-color: #6184f5;
+  color: #fff;
+}
+#footer2 {
+  color: #141414e5;
+}
+#footer2 p {
+  padding-top: 5vw;
+
+  padding-left: 20vw;
+  font-size: 1.3vw;
+}
+/* ...................................Blog..................................... */
+.blog {
+  height: auto;
+  display: flex;
+  margin-top: 8vw;
+}
+.blog1 {
+  margin-left: 10vw;
+  width: 70%;
+  padding-right: 2vw;
+}
+.blog1 .polaroid img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+}
+.container button{
+width: 10vw;
+margin: 1vw 2vw;
+  text-decoration: none;
+ padding: .9vw 1vw;
+  color: #fff;
+ 
+  background-color: #95c11e;
+  font-size: 1.3vw;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.container button:hover {
+  transition: 0.1s;
+  background-color: transparent;
+  color: #95c11e;
+  border: 2px solid #95c11e;
+}
+
+.blog2 {
+  margin-right: 5vw;
+  width: 30%;
+  padding-left: 2vw;
+}
+div.polaroid {
+  margin-bottom: 3vw;
+
+  display: flex;
+  background-color: white;
+  color: black;
+}
+div.container {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+}
+.blog1 .polaroid .container a {
+  font-size: 2vw;
+  float: left;
+  padding-left: 1vw;
+}
+.blog1 .polaroid .container p {
+  padding-top: 1.5vw;
+  padding-left: 2vw;
+  float: left;
+  font-size: 1.5vw;
+}
+.blog1 .polaroid .container .iconheadings a {
+  text-decoration: none;
+  color: #2c2b2b;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  color: #8d8a8a;
+}
+.blog1 .polaroid .container .iconheadings a:hover {
+  color: #95c11e;
+}
+div.container p {
+  color: #3b3a3af3;
+
+  line-height: 2vw;
+}
+/* div.container {
+    padding: 30px;
+  } */
+div.container h4 {
+  padding-top: 1vw;
+  cursor: pointer;
+  font-size: 1vw;
+}
+div.container h4 a {
+  color: rgb(9, 12, 24);
+  text-decoration: none;
+}
+div.container h4 a:hover {
+  color: #95c11e;
+}
+div.container h3:hover {
+  color: #95c11e;
+}
+.blog2 #card1 {
+  width: 20vw;
+ 
+  margin-top: 2vw;
+  padding: 2vw;
+}
+
+.blog2 #card1 input {
+  color: rgb(221, 219, 217);
+  width: 20vw;
+}
+input[type="text"],
+select {
+  font-size: 1vw;
+padding: 1.5vw;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#card2 {
+ 
+}
+#card2 h4 {
+  padding: 2vw;
+  font-size: 2vw;
+}
+#card2 p {
+  padding: 1.5vw;
+  font-size: 1.5vw;
+}
+#card2 .chotihead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vw;
+  border-bottom: 1px solid rgb(219, 222, 224);
+  cursor: pointer;
+}
+#card2 .chotihead a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#card2 .chotihead a :hover {
+  color: #95c11e;
+}
+#card2 .chotihead h6 {
+  justify-content: space-between;
+  color: #2c2b2b;
+}
+#card2 .chotihead p {
+  color: rgb(23, 29, 63);
+}
+#card3 h4 {
+ font-size:2vw ;
+  padding-top: 2vw;
+  
+}
+#card3 p {
+  padding-left: 2vw;
+  font-size: 1vw;
+}
+
+.carddiv img {
+  width: 8vw;
+  height: 5vw;
+  object-fit: cover;
+  padding-right: 2vw;
+  text-align: center;
+}
+.carddiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vw;
+}
+.carddiv a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  font-size: 1vw;
+}
+.card4 {
+  margin-top: 2vw;
+  padding-top: 2vw;
+  
+}
+.card4 h2 {
+  padding-bottom: 2vw;
+ 
+  padding-left: 2vw;
+  font-size: 2vw;
+}
+.card4 .buttons {
+  padding: 2vw;
+}
+.card4 .buttons button {
+  padding: 0.8vw;
+  margin: 0.5vw;
+  font-size: 1vw;
+}
+.buttons :hover {
+  background-color: rgb(101, 126, 240);
+  color: #feffff;
+  border: none;
+}
+.card5 {
+  margin-top: 2vw;
+  padding-top: 2vw;
+  
+}
+.card5 h2 {
+  padding-left: 2vw;
+  font-size: 2vw;
+}
+.card5 p{
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+/*....................responsive.................... */
+@media (max-width: 575px){
+
+
+#nav {
+  background-color: #95c11e;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 5vw;
+  color: #fff;
+  text-transform: uppercase;
+  
+  
+}
+#nav p {
+  font-size:4vw;
+  line-height: 7vw;
+  justify-content: space-between;
+}
+#nav i {
+  font-size: 4vw;
+}
+
+
+.dropdown .dropbtn {
+    color: rgb(204, 200, 200);
+    padding-left: 3vw;
+    padding-right: 15vw;
+    font-size: 6vw;
+    padding-bottom: 2vw;
+  }
+  .dropdown :hover {
+    background-color:transparent;
+    width: 0vw;
+    
+
+  }
+
+  .dropdown {
+    width: 90vw;
+    position: relative;
+
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    display: none;
+    font-size: 15vw;
+    background-color: #6ba2f3;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #faf9f9;
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+ .chkbtn {
+     background-color: #161616;
+    margin-top: .5vw;
+   font-size: 5vw;
+margin-right: 5vw;
+    display: block;
+   
+    padding: 2vw;
+    color: rgb(126, 120, 120);
+
+  }
+  .chkbtn i{
+    font-size: 5vw;
+  }
+
+#nav2 {
+  height: 5vw;
+  width: auto;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  gap: 5vw;
+   position:relative ;
+   padding: 8vw;
+  padding-left: 5vw;
+  padding-right: 1vw;
+  z-index: 99;
+      transition: all 0.5s;
+}
+#nav2 h1 {
+  font-size: 6vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fdfff8;
+ 
+}  #header  {
+    position: absolute;
+    flex-direction: column;
+    color: rgb(204, 200, 200);
+    top: 20vw;
+    left: 0;
+    width: 98.5vw;
+  background-color: #161616;
+    gap: 0;
+    overflow: hidden;
+  }
+  #header p {
+    padding-left: 8vw;
+    overflow: hidden;
+    
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+  }
+   #header p a{
+color: #bbb1b1;
+   }
+
+#poster {
+  background-image: url(images/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+}
+#heading {
+  padding-top: 40vw;
+  padding-left: 20vw;
+}
+#heading h1 {
+  line-height: 1;
+font-family:   sans-serif;
+text-transform: uppercase;
+  font-size: 8vw;
+  font-weight: 800;
+   margin-left:8vw;
+  color: white;
+}
+#heading p {
+  color: #fff;
+ 
+  font-size: 5vw;
+  margin-top: 1vw;
+  margin-left: 7vw;
+  text-transform: uppercase;
+  padding-bottom: .5vw;
+}
+/* .........................................eight............................. */
+#eight {
+  height: auto;
+  padding: 20vw 5vw;
+  position: relative;
+}
+.doting {
+  background-color: #95c11e;
+  border-radius: 100vw;
+  width: 15vw;
+  height: 15vw;
+  text-align: center;
+
+  align-content: center;
+  position: absolute;
+  top: -7vw;
+  left: 40vw;
+}
+.doting i {
+  color: #fff;
+}
+#footer1 {
+  display: flex;
+  flex-direction: column;
+  color: #141414e5;
+}
+#footer1 .foot input {
+  border: #2c2b2b;
+  padding: 0vw;
+  background-color: #2c2b2b;
+
+  text-decoration: none;
+}
+
+#part {
+  line-height: 7vw;
+  margin-right: 5vw;
+  width: 80vw;
+  font-size: 6vw;
+  margin-bottom: 5vw;
+}
+.foot {
+  line-height: 2.5vw;
+  width: 60vw;
+  
+}
+
+.foot h6 {
+  padding-bottom: 5vw;
+  font-size: 7vw;
+  padding-top: 3vw;
+  font-weight: 900;
+}
+.foot h1 {
+  padding-top: 10vw;
+  padding-bottom: 5vw;
+  font-size: 5vw;
+}
+.foot p {
+  align-items: center;
+  font-size: 5vw;
+  line-height: 9vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.foot button {
+  margin-top: 2vw;
+  padding:  3vw;
+ 
+  border-radius: 100vw;
+  border: none;
+ margin-bottom: 10vw;
+margin-top: 10vw;
+  margin-right: 2vw;
+}
+.foot button i {
+ 
+  
+  font-size: 9vw;
+}
+.foot button:hover {
+  background-color: #95c11e;
+
+}
+#footer2 {
+  color: #141414e5;
+}
+#footer2 p {
+  padding-top: 10vw;
+
+  padding-left: 2vw;
+  font-size: 5vw;
+}
+/* ...................................Blog..................................... */
+.blog {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vw;
+  padding-bottom: 10vw;
+}
+
+.blog1 {
+  margin:5vw;
+  width: 100%;
+
+}
+.blog1 .polaroid img {
+  width: 86vw;
+  height: 40vh;
+  object-fit: cover;
+}
+.container button{
+width: 30vw;
+margin: 3vw 1vw;
+  text-decoration: none;
+ padding: 3vw 4vw;
+  color: #fff;
+ 
+  background-color: #95c11e;
+  font-size: 4vw;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+div.container p {
+  color: #3b3a3af3;
+font-size: 5vw;
+  line-height: 2vw;
+}
+/* div.container {
+    padding: 30px;
+  } */
+div.container h4 {
+  padding-top: 1vw;
+  cursor: pointer;
+  font-size: 10vw;
+}
+div.container h4 a {
+  color: rgb(9, 12, 24);
+  text-decoration: none;
+} 
+
+
+div.polaroid {
+  margin-bottom: 3vw;
+width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+div.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.blog1 .polaroid .container .iconheadings a {
+  text-decoration: none;
+  color: #2c2b2b;
+  font-size: 4vw;
+  padding-top:5vw;
+  color: #8d8a8a;
+}
+.blog2 {
+  margin:auto;
+  width: 100%;
+  padding-left: 2vw;
+}
+.blog2 #card1 {
+  width: 80vw;
+ margin-left: 5vw;
+  margin-top: 2vw;
+  padding: 5vw;
+}
+
+.blog2 #card1 input {
+  color: rgb(221, 219, 217);
+  width: 60vw;
+}
+input[type="text"],
+select {
+  font-size: 5vw;
+padding: 4vw 5vw;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#card2 {
+  margin-top: 10vw;
+ width: 60vw;
+ margin-left: 10vw;
+ margin-bottom: 10vw;
+}
+#card2 h4 {
+  padding: 2vw;
+  font-size: 7vw;
+  font-weight: 200;
+}
+#card2 p {
+  padding: 1.5vw;
+  font-size: 5vw;
+  padding-left: 2vw;
+}
+#card2 .chotihead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vw;
+  border-bottom: 1px solid rgb(219, 222, 224);
+  cursor: pointer;
+}
+#card2 .chotihead a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#card2 .chotihead a :hover {
+  color: #95c11e;
+}
+#card2 .chotihead h6 {
+  justify-content: space-between;
+  color: #2c2b2b;
+}
+#card2 .chotihead p {
+  color: rgb(23, 29, 63);
+}
+#card3{
+
+  width: 80%;
+  margin-left: 10vw;
+}
+#card3 h4 {
+ font-size:5vw ;
+  padding-top: 2vw;
+  font-weight: 100;
+  
+}
+#card3 p {
+  padding-left: 0vw;
+  font-size: 5vw;
+  color: #615e5e;
+}
+
+.carddiv img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  padding-right: 2vw;
+  text-align: center;
+}
+.carddiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vw;
+}
+.carddiv a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(124, 119, 119);
+  padding: 0;
+  font-size: 5vw;
+}
+.card4 {
+  width: 80%;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  margin-left: 5vw;
+  
+}
+.card4 h2 {
+  padding-bottom: 2vw;
+ 
+  padding-left: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+}
+.card4 .buttons {
+  padding: 2vw;
+}
+.card4 .buttons button {
+  padding: 1.5vw;
+  margin: 1vw;
+  font-size: 5vw;
+}
+.buttons :hover {
+  background-color: rgb(101, 126, 240);
+  color: #feffff;
+  border: none;
+}
+.card5 {
+    width: 80%;
+    margin-left: 5vw;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  
+}
+.card5 h2 {
+  padding-left: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+  padding-bottom: 6vw;
+}
+.card5 p{
+  font-size: 6vw;
+  line-height: 7vw;
+  padding-left: 2vw;
+}
+}
+@media (min-width: 576px) and (max-width: 990px){
+
+#nav {
+  background-color: #95c11e;
+  justify-content: space-between;
+  display: flex;
+  padding: 2vw 12vw;
+  color: #fff;
+  text-transform: uppercase;
+  
+  
+}
+#nav p {
+  font-size: 1.3vw;
+  justify-content: space-between;
+}
+#nav i {
+  font-size: 2vw;
+}
+  .dropdown .dropbtn {
+    color: rgb(233, 229, 229);
+    padding-left: 3vw;
+    padding-right: 15vw;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+  }
+  .dropdown :hover {
+    background-color:transparent;
+    width: 0vw;
+    color: #f9f9f9;
+
+  }
+
+  .dropdown {
+    width: 90vw;
+    position: relative;
+
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    display: none;
+    font-size: 15vw;
+    background-color: #6ba2f3;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #faf9f9;
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+ .chkbtn {
+     background-color: #161616;
+    margin-top: .5vw;
+   font-size: 2vw;
+margin-right: 10vw;
+    display: block;
+    width: 10vw;
+    padding: 1vw;
+    color: rgb(126, 120, 120);
+
+  }
+  .chkbtn i{
+    font-size: 2.5vw;
+  }
+
+#nav2 {
+  height: 5vw;
+  width: auto;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  gap: 40vw;
+   position:relative ;
+   padding: 1vw 0;
+  padding-left: 10vw;
+  padding-right: 1vw;
+  z-index: 99;
+      transition: all 0.5s;
+}
+#nav2 h1 {
+  font-size: 2.2vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f6faeb;
+ 
+}  #header  {
+    position: absolute;
+    flex-direction: column;
+    color: rgb(204, 200, 200);
+    top: 7vw;
+    left: 0;
+    width: 98.5vw;
+  background-color: #161616;
+    gap: 0;
+    overflow: hidden;
+  }
+  #header p {
+    padding-left: 8vw;
+    overflow: hidden;
+    
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+  }
+   #header p a{
+color: #bbb1b1;
+   }#poster {
+  background-image: url(images/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+}
+#heading {
+  padding-top: 15vw;
+  padding-left: 30vw;
+}
+#heading h1 {
+  line-height: 1;
+font-family:   sans-serif;
+text-transform: uppercase;
+  font-size: 2.5vw;
+  font-weight: 900;
+   margin-left: 14vw;
+  color: white;
+}
+#heading p {
+  color: #fff;
+ 
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 14vw;
+  text-transform: uppercase;
+  padding-bottom: .5vw;
+}
+/* ...................................Blog..................................... */
+.blog {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vw;
+  padding-bottom: 10vw;
+}
+
+.blog1 {
+  margin:auto;
+  width: 70%;
+  padding-right: 2vw;
+}
+.blog1 .polaroid img {
+  width: 25vw;
+  height: 24vw;
+  object-fit: cover;
+}
+.container button{
+width: 12vw;
+margin: 3vw 1vw;
+  text-decoration: none;
+ padding: .9vw 1vw;
+  color: #fff;
+ 
+  background-color: #95c11e;
+  font-size: 1.8vw;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+div.container p {
+  color: #3b3a3af3;
+font-size: 6vw;
+line-height: 2vw;
+
+}
+/* div.container {
+    padding: 30px;
+  } */
+div.container h4 {
+ padding-top: 2vw;
+  padding-right: 3vw;;
+  cursor: pointer;
+  font-size: 3vw;
+
+}
+div.container h4 a {
+  color: rgb(9, 12, 24);
+  text-decoration: none;
+}
+
+div.polaroid {
+  margin-bottom: 3vw;
+
+  display: flex;
+  background-color: white;
+  color: black;
+}
+div.container {
+  height: 35vh;
+  width: 50%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+/* .........................................eight............................. */
+#eight {
+  height: auto;
+  padding: 10vw 10vw;
+  position: relative;
+}
+.doting{
+    background-color: #95c11e;
+    border-radius: 100vw;
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+ 
+ align-content: center;
+ position: absolute;
+ top: -2vw;
+ left: 45vw;
+}
+.doting i{
+
+    color: #fff;
+}
+#footer1 {
+  display: flex;
+  color: #141414e5;
+}
+#footer1 .foot input {
+  border: #2c2b2b;
+  padding: 0vw;
+  background-color: #2c2b2b;
+
+  text-decoration: none;
+}
+
+#part {
+  line-height: 1.5;
+  margin-right: 5vw;
+  width: 10vw;
+  margin-bottom: 5vw;
+}
+.foot {
+  line-height: 2.5vw;
+  width: 20vw;
+  
+}
+
+.foot h6 {
+  padding-bottom: 2vw;
+  font-size: 2vw;
+}
+.foot h1 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 3vw;
+}
+.foot p {
+  align-items: center;
+  font-size: 1.7vw;
+  line-height: 3vw;
+}
+
+.foot button {
+  margin-top: 2vw;
+  padding:  0.5vw;
+ 
+  border-radius: 2vw;
+  border: none;
+ display: flex;
+ flex-direction: column;
+  margin-right: 1vw;
+}
+.foot button i {
+ 
+  
+  font-size: 3vw;
+}
+.foot button:hover {
+  background-color: #6184f5;
+  color: #fff;
+}
+#footer2 {
+  color: #141414e5;
+}
+#footer2 p {
+  padding-top: 5vw;
+
+  padding-left: 10vw;
+  font-size: 1.7vw;
+}
+
+
+.blog2 {
+  margin:auto;
+  width: 80%;
+  padding-left: 2vw;
+}
+.blog2 #card1 {
+  width: 60vw;
+ margin-left: 5vw;
+  margin-top: 2vw;
+  padding: 2vw;
+}
+
+.blog2 #card1 input {
+  color: rgb(221, 219, 217);
+  width: 60vw;
+}
+input[type="text"],
+select {
+  font-size: 1.6vw;
+padding: 1.5vw;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#card2 {
+ width: 60vw;
+ margin-left: 5vw;
+}
+#card2 h4 {
+  padding: 2vw;
+  font-size: 2.5vw;
+  font-weight: 200;
+}
+#card2 p {
+  padding: 1.5vw;
+  font-size: 2vw;
+  padding-left: 2vw;
+}
+#card2 .chotihead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vw;
+  border-bottom: 1px solid rgb(219, 222, 224);
+  cursor: pointer;
+}
+#card2 .chotihead a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#card2 .chotihead a :hover {
+  color: #95c11e;
+}
+#card2 .chotihead h6 {
+  justify-content: space-between;
+  color: #2c2b2b;
+}
+#card2 .chotihead p {
+  color: rgb(23, 29, 63);
+}
+#card3{
+
+  width: 80%;
+  margin-left: 5vw;
+}
+#card3 h4 {
+ font-size:3vw ;
+  padding-top: 2vw;
+  font-weight: 100;
+  
+}
+#card3 p {
+  padding-left: 0vw;
+  font-size: 2vw;
+  color: #615e5e;
+}
+
+.carddiv img {
+  width: 8vw;
+  height: 8vw;
+  object-fit: cover;
+  padding-right: 2vw;
+  text-align: center;
+}
+.carddiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vw;
+}
+.carddiv a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(124, 119, 119);
+  padding: 0;
+  font-size: 1.6vw;
+}
+.card4 {
+  width: 80%;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  margin-left: 5vw;
+  
+}
+.card4 h2 {
+  padding-bottom: 2vw;
+ 
+  padding-left: 2vw;
+  font-size: 3vw;
+  font-weight: 100;
+}
+.card4 .buttons {
+  padding: 2vw;
+}
+.card4 .buttons button {
+  padding: .8vw;
+  margin: 0vw;
+  font-size: 1.5vw;
+}
+.buttons :hover {
+  background-color: rgb(101, 126, 240);
+  color: #feffff;
+  border: none;
+}
+.card5 {
+    width: 80%;
+    margin-left: 5vw;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  
+}
+.card5 h2 {
+  padding-left: 2vw;
+  font-size: 3vw;
+  font-weight: 100;
+  padding-bottom: 4vw;
+}
+.card5 p{
+  font-size: 2vw;
+  line-height: 2.8vw;
+  padding-left: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  }
