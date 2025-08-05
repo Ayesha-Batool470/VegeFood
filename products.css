@@ -621,7 +621,10 @@ margin-top: 10vw;
   padding: 5vw 5vw;
 }
 #content {
+  padding: 2vw;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 #section4 i {
   font-size: 6vw;
@@ -634,9 +637,10 @@ margin-top: 10vw;
   padding: 2vw 0;
 }
 #section4 p {
-  font-size: 6vw;
-  line-height: 7vw;
-  color: #969494;
+  font-size: 8vw;
+  line-height: 9vw;
+ 
+  color: #95c11e;
 }
 #cards {
   display: flex;
