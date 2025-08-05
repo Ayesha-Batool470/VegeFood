@@ -737,6 +737,7 @@ margin: 3vw 1vw;
   cursor: pointer;
 }
 div.container p {
+  display: none;
   color: #3b3a3af3;
 font-size: 5vw;
   line-height: 2vw;
@@ -745,6 +746,7 @@ font-size: 5vw;
     padding: 30px;
   } */
 div.container h4 {
+  display: none;
   padding-top: 1vw;
   cursor: pointer;
   font-size: 10vw;
