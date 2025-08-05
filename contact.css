@@ -477,7 +477,10 @@ justify-content: space-between;
     font-size: 2vw;
     padding-left: 3vw;
     padding-bottom: 2vw;
-  }
+  }  #header a{
+ font-size: 5vw;
+color: rgb(204, 200, 200);
+}
    #header p a{
 color: #bbb1b1;
    }
