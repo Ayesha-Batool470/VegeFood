@@ -797,6 +797,10 @@ justify-content: space-between;
     gap: 0;
     overflow: hidden;
   }
+    #header a{
+ font-size: 5vw;
+color: rgb(204, 200, 200);
+}
   #header p {
     padding-left: 8vw;
     overflow: hidden;
